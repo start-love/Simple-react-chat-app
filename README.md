@@ -1,346 +1,247 @@
-Contribution: 2018-05-02 00:00
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** sami-colon, react-chat-app, twitter_handle, abhishek.personal.email@gmail.com, Anonymous Rooms, Anonymous Rooms is a real time chat application
+where user can create a new room and
+any no of users can be joined to same room.
+This app provides users to chat with each
+other in real time.
+-->
+
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+-->
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/sami-colon/react-chat-app">
+    <img src="images/logo.png" alt="Logo" width="1000" height="500">
+  </a>
+
+  <h3 align="center">Anonymous Rooms</h3>
+
+  <p align="center">
+    Anonymous Rooms is a real time chat application where user can create a new room and any no of users can be joined to same room. This app provides users to chat with each other in real time.
+    <br />
+    <a href="https://github.com/sami-colon/react-chat-app"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://real-chat-room.herokuapp.com/">View Demo</a>
+    ·
+    <a href="https://github.com/sami-colon/react-chat-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/sami-colon/react-chat-app/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-Contribution: 2018-05-02 00:01
 
-Contribution: 2018-05-02 00:02
 
-Contribution: 2018-05-02 00:03
+<!-- ABOUT THE PROJECT -->
+## About The Project
+[Anonymous Chat](https://real-chat-room.herokuapp.com/)
+<p>
+  Anonymous Rooms is a real time chat application where user can create a new room and any no of users can be joined to same room. This app provides users to chat with each
+other in real time.
+</p>
 
-Contribution: 2018-05-02 00:04
 
-Contribution: 2018-05-02 00:05
+### Built With
 
-Contribution: 2018-05-02 00:06
+* [ReactJs](https://reactjs.org/)
+* [ExpresJs](https://expressjs.com/)
+* [Socket.io](https://socket.io/)
 
-Contribution: 2018-05-02 00:07
 
-Contribution: 2018-05-02 00:08
 
-Contribution: 2018-05-02 00:09
+<!-- GETTING STARTED -->
+## Getting Started
 
-Contribution: 2018-05-03 00:00
+To get a local copy up and running follow these simple steps.
 
-Contribution: 2018-05-04 00:00
+### Prerequisites
 
-Contribution: 2018-05-04 00:01
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-Contribution: 2018-05-04 00:02
+### Installation
 
-Contribution: 2018-05-04 00:03
+1. Clone the repo
+   ```sh
+   git clone https://github.com/sami-colon/react-chat-app.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-Contribution: 2018-05-04 00:04
 
-Contribution: 2018-05-04 00:05
 
-Contribution: 2018-05-04 00:06
+<!-- USAGE EXAMPLES -->
+## Usage
 
-Contribution: 2018-05-04 00:07
+For the project to build, **these files must exist with exact filenames**:
 
-Contribution: 2018-05-07 00:00
+* `public/index.html` is the page template;
+* `src/index.js` is the JavaScript entry point.
+* `/src/ENDPOINTS.js` is the config file for providing api endpoint. (create your own or use: real-chat-room.herokuapp.com)
 
-Contribution: 2018-05-07 00:01
+You can delete or rename the other files.
 
-Contribution: 2018-05-07 00:02
+You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
+You need to **put any JS and CSS files inside `src`**, or Webpack won’t see them.
 
-Contribution: 2018-05-07 00:03
+Only files inside `public` can be used from `public/index.html`.<br>
+Read instructions below for using assets from JavaScript and HTML.
 
-Contribution: 2018-05-07 00:04
+You can, however, create more top-level directories.<br>
+They will not be included in the production build so you can use them for things like documentation.
 
-Contribution: 2018-05-07 00:05
+## Available Scripts
 
-Contribution: 2018-05-07 00:06
+In the project directory, you can run:
 
-Contribution: 2018-05-07 00:07
+### `npm start`
 
-Contribution: 2018-05-07 00:08
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Contribution: 2018-05-07 00:09
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Contribution: 2018-05-07 00:10
+### `npm test`
 
-Contribution: 2018-05-07 00:11
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](#running-tests) for more information.
 
-Contribution: 2018-05-07 00:12
+### `npm run build`
 
-Contribution: 2018-05-07 00:13
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Contribution: 2018-05-07 00:14
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-Contribution: 2018-05-08 00:00
+See the section about [deployment](#deployment) for more information.
 
-Contribution: 2018-05-08 00:01
+### `npm run eject`
 
-Contribution: 2018-05-08 00:02
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Contribution: 2018-05-08 00:03
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Contribution: 2018-05-08 00:04
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Contribution: 2018-05-08 00:05
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Contribution: 2018-05-08 00:06
 
-Contribution: 2018-05-08 00:07
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-Contribution: 2018-05-08 00:08
 
-Contribution: 2018-05-09 00:00
+<!-- CONTRIBUTING -->
+## Contributing
 
-Contribution: 2018-05-09 00:01
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Contribution: 2018-05-09 00:02
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Contribution: 2018-05-09 00:03
 
-Contribution: 2018-05-09 00:04
 
-Contribution: 2018-05-09 00:05
+<!-- LICENSE -->
+## License
 
-Contribution: 2018-05-09 00:06
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Contribution: 2018-05-09 00:07
 
-Contribution: 2018-05-09 00:08
 
-Contribution: 2018-05-09 00:09
+<!-- CONTACT -->
+## Contact
 
-Contribution: 2018-05-10 00:00
+Abhishek Kumar - [Email](mailto:abhishek@neweradevelopers.com)
 
-Contribution: 2018-05-10 00:01
+Project Link: [https://github.com/sami-colon/react-chat-app](https://github.com/sami-colon/react-chat-app)
 
-Contribution: 2018-05-10 00:02
 
-Contribution: 2018-05-10 00:03
 
-Contribution: 2018-05-10 00:04
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
-Contribution: 2018-05-10 00:05
+* [Javascript Mastery](https://www.instagram.com/javascriptmastery/)
 
-Contribution: 2018-05-14 00:00
 
-Contribution: 2018-05-14 00:01
+## sample images
+<img src="images/react%20chat%20app%201.PNG" alt="Logo">
+<img src="images/react%20chat%20app%202.PNG" alt="Logo">
+<img src="images/react%20chat%20app%203.PNG" alt="Logo">
 
-Contribution: 2018-05-14 00:02
 
-Contribution: 2018-05-14 00:03
-
-Contribution: 2018-05-14 00:04
-
-Contribution: 2018-05-14 00:05
-
-Contribution: 2018-05-14 00:06
-
-Contribution: 2018-05-14 00:07
-
-Contribution: 2018-05-14 00:08
-
-Contribution: 2018-05-14 00:09
-
-Contribution: 2018-05-14 00:10
-
-Contribution: 2018-05-14 00:11
-
-Contribution: 2018-05-14 00:12
-
-Contribution: 2018-05-14 00:13
-
-Contribution: 2018-05-17 00:00
-
-Contribution: 2018-05-17 00:01
-
-Contribution: 2018-05-17 00:02
-
-Contribution: 2018-05-17 00:03
-
-Contribution: 2018-05-17 00:04
-
-Contribution: 2018-05-18 00:00
-
-Contribution: 2018-05-18 00:01
-
-Contribution: 2018-05-18 00:02
-
-Contribution: 2018-05-21 00:00
-
-Contribution: 2018-05-21 00:01
-
-Contribution: 2018-05-21 00:02
-
-Contribution: 2018-05-21 00:03
-
-Contribution: 2018-05-21 00:04
-
-Contribution: 2018-05-21 00:05
-
-Contribution: 2018-05-21 00:06
-
-Contribution: 2018-05-21 00:07
-
-Contribution: 2018-05-21 00:08
-
-Contribution: 2018-05-21 00:09
-
-Contribution: 2018-05-21 00:10
-
-Contribution: 2018-05-21 00:11
-
-Contribution: 2018-05-21 00:12
-
-Contribution: 2018-05-21 00:13
-
-Contribution: 2018-05-21 00:14
-
-Contribution: 2018-05-23 00:00
-
-Contribution: 2018-05-23 00:01
-
-Contribution: 2018-05-23 00:02
-
-Contribution: 2018-05-25 00:00
-
-Contribution: 2018-05-25 00:01
-
-Contribution: 2018-05-25 00:02
-
-Contribution: 2018-05-25 00:03
-
-Contribution: 2018-05-29 00:00
-
-Contribution: 2018-05-29 00:01
-
-Contribution: 2018-05-30 00:00
-
-Contribution: 2018-05-30 00:01
-
-Contribution: 2018-05-30 00:02
-
-Contribution: 2018-05-30 00:03
-
-Contribution: 2018-05-31 00:00
-
-Contribution: 2018-06-01 00:00
-
-Contribution: 2018-06-01 00:01
-
-Contribution: 2018-06-01 00:02
-
-Contribution: 2018-06-01 00:03
-
-Contribution: 2018-06-01 00:04
-
-Contribution: 2018-06-01 00:05
-
-Contribution: 2018-06-01 00:06
-
-Contribution: 2018-06-01 00:07
-
-Contribution: 2018-06-01 00:08
-
-Contribution: 2018-06-01 00:09
-
-Contribution: 2018-06-01 00:10
-
-Contribution: 2018-06-01 00:11
-
-Contribution: 2018-06-05 00:00
-
-Contribution: 2018-06-05 00:01
-
-Contribution: 2018-06-05 00:02
-
-Contribution: 2018-06-05 00:03
-
-Contribution: 2018-06-05 00:04
-
-Contribution: 2018-06-05 00:05
-
-Contribution: 2018-06-05 00:06
-
-Contribution: 2018-06-05 00:07
-
-Contribution: 2018-06-05 00:08
-
-Contribution: 2018-06-05 00:09
-
-Contribution: 2018-06-05 00:10
-
-Contribution: 2018-06-05 00:11
-
-Contribution: 2018-06-05 00:12
-
-Contribution: 2018-06-05 00:13
-
-Contribution: 2018-06-07 00:00
-
-Contribution: 2018-06-07 00:01
-
-Contribution: 2018-06-07 00:02
-
-Contribution: 2018-06-07 00:03
-
-Contribution: 2018-06-07 00:04
-
-Contribution: 2018-06-07 00:05
-
-Contribution: 2018-06-07 00:06
-
-Contribution: 2018-06-07 00:07
-
-Contribution: 2018-06-07 00:08
-
-Contribution: 2018-06-07 00:09
-
-Contribution: 2018-06-08 00:00
-
-Contribution: 2018-06-08 00:01
-
-Contribution: 2018-06-08 00:02
-
-Contribution: 2018-06-08 00:03
-
-Contribution: 2018-06-08 00:04
-
-Contribution: 2018-06-08 00:05
-
-Contribution: 2018-06-08 00:06
-
-Contribution: 2018-06-08 00:07
-
-Contribution: 2018-06-08 00:08
-
-Contribution: 2018-06-08 00:09
-
-Contribution: 2018-06-08 00:10
-
-Contribution: 2018-06-08 00:11
-
-Contribution: 2018-06-08 00:12
-
-Contribution: 2018-06-08 00:13
-
-Contribution: 2018-06-11 00:00
-
-Contribution: 2018-06-14 00:00
-
-Contribution: 2018-06-14 00:01
-
-Contribution: 2018-06-18 00:00
-
-Contribution: 2018-06-18 00:01
-
-Contribution: 2018-06-18 00:02
-
-Contribution: 2018-06-18 00:03
-
-Contribution: 2018-06-18 00:04
-
-Contribution: 2018-06-18 00:05
-
-Contribution: 2018-06-18 00:06
-
-Contribution: 2018-06-18 00:07
-
-Contribution: 2018-06-18 00:08
-
-Contribution: 2018-06-18 00:09
-
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/sami-colon/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/sami-colon/react-chat-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sami-colon/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/sami-colon/react-chat-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/sami-colon/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/sami-colon/react-chat-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sami-colon/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/sami-colon/react-chat-app/issues
+[license-shield]: https://img.shields.io/github/license/sami-colon/repo.svg?style=for-the-badge
+[license-url]: https://github.com/sami-colon/react-chat-app/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/sami-colon
